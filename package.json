@@ -1,0 +1,29 @@
+{
+  "name": "gulp-zhenya",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "test",
+    "babel": "babel app/js/draft/*.js --watch --out-dir app/js/"
+  },
+  "author": ""
+}

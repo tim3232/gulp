@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector(".box");e.style.border="5px solid red";let t=document.querySelectorAll(".menu__item");t.forEach(e=>{e.innerText="Hello Babel"})});
